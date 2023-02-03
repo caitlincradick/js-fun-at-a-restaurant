@@ -22,16 +22,18 @@ function addIngredients (topping, ingredients) {
     // console.log(ingredients)
   }
 }
- 
-
-
-
+ function formatPrice (initialPrice) {
+  // console.log(initialPrice)
+  var dollarSignPrice = `$${initialPrice}`
+  return dollarSignPrice
+ }
+  
 
 module.exports = {
   nameMenuItem,
   createMenuItem,
   addIngredients,
-  // formatPrice,
+  formatPrice,
   // decreasePrice,
   // createRecipe
 }
