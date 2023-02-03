@@ -15,11 +15,13 @@ function createMenuItem (menuItemName, price, type) {
 }
 createMenuItem ('burrito', 1.99, 'lunch')
 
-function addIngredients (ingredientName, numOfIngreditent) {
-var ingredients = [
-];
-} 
-
+// function addIngredients (ingredientName, numOfIngredients) {
+// var ingredients = [
+//   ingredientName: ingredientName
+//   numOfIngredients: numOfIngredients
+// ];
+// } 
+// addIngredients ('cheese', 1)
 
 module.exports = {
   nameMenuItem,
