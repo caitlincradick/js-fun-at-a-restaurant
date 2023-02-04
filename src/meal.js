@@ -25,9 +25,13 @@ function addIngredients (topping, ingredients) {
  function formatPrice (initialPrice) {
   // console.log(initialPrice)
   var dollarSignPrice = `$${initialPrice}`
+  // dollarSignPrice.
   return dollarSignPrice
  }
   
+//  function decreasePrice (){
+
+//  }
 
 module.exports = {
   nameMenuItem,
