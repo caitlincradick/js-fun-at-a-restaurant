@@ -42,7 +42,6 @@ function createRecipe (titleInput, ingredientInput, typeInput) {
 }
 
 
-
 module.exports = {
   nameMenuItem,
   createMenuItem,

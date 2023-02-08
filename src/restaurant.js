@@ -1,29 +1,19 @@
 function createRestaurant (restaurantName) {
-var restaurantNameArray ={
+var restaurant = {
   name:restaurantName,  
-  menus:
-  {
-  breakfast:[],
-  lunch: [],
-  dinner: []
-  }
+  menus:{
+    breakfast:[],
+    lunch: [],
+    dinner: []
+ }
 } 
-return restaurantNameArray
+return restaurant
 }
 
-function addMenuItem(menusArray) {
-  // var menusArray = []
-  //   menus:
-  // {
-  //   name: [],  
-  //   price:[],
-  //   type: []
-  // }
-// for (i=0;menusArray.length; i++) {
-// pizzaRestaurant.menusArray.menus.lunch[i]+1
-// }
-// return menusArray 
-// }
+function addMenuItem(pizzaRestaurant, pizza) {
+  pizzaRestaurant.menus.lunch.push(pizza)
+
+}
 
 
 

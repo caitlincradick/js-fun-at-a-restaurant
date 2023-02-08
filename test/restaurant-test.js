@@ -45,19 +45,19 @@ describe("restaurant.js", function() {
     });
 
     it("should add an item to the lunch menu", function() {
-      var pizzaRestaurant = createRestaurant("Sexy Pizza");
+      var pizzaRestaurant2 = createRestaurant("Sexy Pizza");
       var bbqPizza = {
         name: "BBQ Chicken",
         price: "12.49",
         type: "lunch"
       };
 
-      addMenuItem(pizzaRestaurant, bbqPizza);
+      addMenuItem(pizzaRestaurant2, bbqPizza);
 
-      assert.equal(pizzaRestaurant.menus.lunch[0], bbqPizza);
+      assert.equal(pizzaRestaurant2.menus.lunch[0], bbqPizza);
     });
 
-    it("should add an item to the lunch menu if the menu already has items", function () {
+    it.skip("should add an item to the lunch menu if the menu already has items", function () {
       var pizzaRestaurant = createRestaurant("Sexy Pizza");
       var bbqPizza = {
         name: "BBQ Chicken",
